@@ -1,7 +1,15 @@
 {
     "basic_info": {
       "description_header": "Cześć",
-      "description": "👋 Jestem Latherio Kidd. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Code Fellows. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description": "👋 I am a dynamic tech enthusiast with an insatiable passion for solving complex problems through innovative coding
+      and design.
+      Armed with an Associates in Computer Science and fortified by CompTIA Security + CE certification, my mission is
+      to weave
+      intricate digital landscapes that transcend expectations. With a foundation in military discipline, I bring
+      resilience,
+      precision, and an unyielding commitment to excellence to every project. My expertise spans from conquering coding
+      challenges
+      to navigating the intricate realm of cybersecurity. 💜",
       "section_name": {
         "about": "O mnie",
         "projects": "Projekty",
@@ -55,12 +63,12 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Gallery Of Horns",
+        "startDate": "2023",
+        "description": "React State and Props Overview By the end of this module, you will create an application that displays images and information of horned animals. This application will allow you to filter the beasts by number of horns and chose your favorite beast.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/galleryOfHorns/react2.png",
+          "images/portfolio/galleryOfHorns/react.png",
         ],
         "url": "https://github.com",
         "technologies": [

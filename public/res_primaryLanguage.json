@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Latherio Kidd. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Tech Alchemist - Latherio Kidd",
+      "description":"👋 I'm Latherio Kidd.I am a dynamic tech enthusiast with an insatiable passion for solving complex problems through innovative coding and design. Armed with an Associates in Computer Science and fortified by CompTIA Security + CE certification, my mission is to weave intricate digital landscapes that transcend expectations. With a foundation in military discipline, I bring resilience, precision, and an unyielding commitment to excellence to every project. My expertise spans from conquering coding challenges to navigating the intricate realm of cybersecurity.💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,108 +11,337 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "Classic Snake Game",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Our project aims to create a Classic Snake game using JavaScript. The game will feature a snake that grows in length as it consumes food and a simple grid-based playing area. Players will control the snake's direction, and the game's objective will be to eat as much food as possible without colliding with the walls or the snake's own tail. The game will keep score of player losses and wins.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "/images/portfolio/eastcode/Picture1.png",
+          "/images/portfolio/eastcode/Picture2.png",
+          "/images/portfolio/eastcode/Picture3.png"
         ],
-        "url": "",
+        "url": "https://github.com/TheEastCode/ClassicSnakeGame.git",
+        "url":"https://theeastcode.github.io/ClassicSnakeGame/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": " Salmon Cookies",
+        "startDate": "2018",
+        "description": "Pat needs you to take a leading role in implementing the design work and construction of a public-facing page as well. The design team has created a logo image (below), and the framework for the look and feel of the website including the color scheme, fonts, and additional images for the public facing site.A salmon So, in addition to building an application that calculates daily sales projections for each location (on a page called sales.html), you also need to create a public-facing page (on the homepage index.html) that matches the mock-up created by the design team, and includes the required information and asset:)",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/cookies/Picture5.png",
+          "images/portfolio/cookies/Picture4.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "CSS 3",
+            "class": "devicon-css3-plain"
+          }
+        ]
+      },
+      {
+        "title": "Gallery Of Horns",
+        "startDate": "2023",
+        "description": "React State and Props Overview By the end of this module, you will create an application that displays images and information of horned animals. This application will allow you to filter the beasts by number of horns and chose your favorite beast.",
+        "images": [
+          "images/portfolio/galleryOfHorns/react2.png",
+          "images/portfolio/galleryOfHorns/react.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain"
+          },        {
+            "name": "Bootstrap",
+            "class": "devicon-bootstrap-plain"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          } ,
+          {
+            "class": "devicon-npm-original",
+            "name": "npm"
           }
         ]
       }
     ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
+      "experience": [
+        {
+          "company": "Code Fellows",
+          "title": "Software Developer",
+          "years": "October 2023 - Current",
+          "mainTech": [
+            "JavaScript"
+          ],
+          "technologies": [
+            "HTML5",
+            "CSS3",
+            "Test-Driven Development",
+            "Code Review",
+            "Requirements Gathering",
+            "Troubleshooting and Issue Resolution",
+            "Project Coordination and Management",
+            "Angular 8/9/10",
+            "RxJS",
+            "Bootstrap",
+            "MDBootstrap",
+            "EF Core",
+            ".NET Core",
+            "SignalR",
+            "Angular Material"
+          ]
+        },
+        {
+          "company": "OBXtek",
+          "title": "Information Management Officer/ Knowledge Engineer",
+          "years": "February 2023 - August 2023",
+          "mainTech": [
+            "SharePoint Administration",
+            "JavaScript"
+          ],
+          "technologies": [
+            "DNS",
+            "DHCP",
+            "Active Directory",
+            "GPOs",
+            "DR Concepts",
+            "Cross-Domain Transfer",
+            "Microsoft Office",
+            "Remedy Action Request System",
+            "Technical Support",
+            "Communications Equipment Maintenance",
+            "Storage and Backup Management",
+            "Record Management",
+            "Safety Management",
+            "Area Surveillance",
+            "Emergency Response",
+            "Observation and Reporting",
+            "Preventive Maintenance",
+            "Perimeter Security",
+            "Protocol Adherence",
+            "Emergency Assistance",
+            "Custom Workflows",
+            "Web Parts",
+            "Application Audits and Analysis",
+            "Storage Management",
+            "System Design and Functional Specifications",
+            "Document Control"
+          ]
+        },
+          {
+            "company": "GovCIO",
+            "title": "Information Technology Generalist",
+            "years": "June 2022 - January 2023",
+            "mainTech": [
+              "UiPath"
+            ],
+            "technologies": [
+              "DNS",
+              "DHCP",
+              "Active Directory",
+              "GPOs",
+              "Cross Domain Transfer",
+              "Technical Troubleshooting",
+              "Hardware Upgrades",
+              "Problem-Solving",
+              "User Support",
+              "System Testing",
+              "Data Backup",
+              "Network Security",
+              "Help Desk Support",
+              "Microsoft Windows and Office",
+              "Error Detection",
+              "Account Administration",
+              "Reporting and Documentation",
+              "Critical Thinking",
+              "Customer Service",
+              "Data Management",
+              "Monitoring Computer Viruses",
+              "Risk Mitigation",
+              "Application Development",
+              "Technical Writing",
+              "Project Updates",
+              "Software Design",
+              "Debugging and Troubleshooting",
+              "Programming Languages: Java, C#, .Net, Python",
+              "Amazon Web Services",
+              "Analytical Thinking and Problem Solving",
+              "Source and Version Control: Git, Github",
+              "Software Documentation Control",
+              "Eagerness to Learn New Technologies",
+              "Code and Quality Standards",
+              "Software Development Standards",
+              "Object-Oriented Programming",
+              "Performance Evaluation and Optimization",
+              "End User Support",
+              "Usability and Accessibility",
+              "Project Specifications",
+              "Security Planning",
+              "Software Customizations",
+              "Hardware Configuration",
+              "Scripting Languages: PHP, Python, JavaScript",
+              "Adobe Software",
+              "Software Quality Assurance"
+            ]
+          },
+          {
+            "company": "United States Census Bureau ACO 2976",
+            "title": "Configuration/Build Release Manager",
+            "years": "December 2019 - July 2022",
+            "mainTech": [
+              "SharePoint",
+              "Microsoft Teams",
+              "Jira",
+              "Jenkins",
+              "Docker",
+              "Puppet",
+              "Ansible"
+            ],
+            "technologies": [
+              "Coordinated, planned, scheduled, and executed enterprise software releases",
+              "Built product components for candidate build packages and tracked revision numbers",
+              "Ensured required documentation related to releases was created and attached to corresponding Change Requests (CR)",
+              "Tracked and communicated release information through development and testing phases",
+              "Planned and designed Microsoft SharePoint environments for software/hardware change requests",
+              "Installed build packages into a dedicated workspace for all release environments",
+              "Recorded release package information into the Configuration Management Database (CMDB)",
+              "Developed and modified SharePoint user privileges in compliance with standard operating procedures",
+              "Created a companywide intranet solution for supporting contract clients based on SharePoint Server 2016",
+              "Conducted regular release meetings and communicated release management policy and changes",
+              "Reviewed Change Requests (CR) for updates and modifications",
+              "Led content management and governance practices through the use of workflow"
+            ]
+          },
+          {
+            "company": "Air Force",
+            "title": "Data Analyst/Knowledge Management Specialist",
+            "years": "May 2015 - November 2019",
+            "mainTech": [
+              "SharePoint",
+              "C#.NET",
+              "Excel"
+            ],
+            "technologies": [
+              "Demonstrated technical proficiency in various technologies, including SharePoint and C#.NET",
+              "Conducted audits and analysis of application environments",
+              "Managed storage limits and shared drives for a unit of 300 enlisted members and 25 officers",
+              "Assisted in the creation of system design and functional specifications",
+              "Planned and managed projects to ensure effective and efficient execution",
+              "Provided ground support for special air and foreign missions",
+              "Mapped and executed the transfer of distinguished visitors, personnel, and cargo"
+            ]
+          },
+        {
+          "company": "DSI Security Services",
+          "title": "Security Officer",
+          "years": "August 2012 - May 2015",
+          "mainTech": [
+            "Ground Support for Special Air Missions",
+            "Cargo Management"
+          ],
+          "technologies": [
+            "Area Surveillance",
+            "Emergency Response",
+            "Observation and Reporting",
+            "Preventive Maintenance",
+            "Perimeter Security",
+            "Protocol Adherence",
+            "Emergency Assistance"
+          ]
+        }
+      ],
+      "summary": "Detail-oriented and results-driven IT professional with 5+ years of experience in information technology, data analytics, help desk, and cybersecurity. Expertise in SharePoint administration, hardware/software troubleshooting, project management, and an active secret clearance. Committed to driving excellence in IT operations and user support.",
+      "skills": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Test-Driven Development",
+        "Code Review",
+        "Requirements Gathering",
+        "Troubleshooting and Issue Resolution",
+        "Project Coordination and Management",
+        "DNS",
+        "DHCP",
+        "Active Directory",
+        "GPOs",
+        "DR Concepts",
+        "Cross-Domain Transfer",
+        "Microsoft Office",
+        "Remedy Action Request System",
+        "Technical Support",
+        "Communications Equipment Maintenance",
+        "Storage and Backup Management",
+        "Record Management",
+        "Safety Management",
+        "Area Surveillance",
+        "Emergency Response",
+        "Observation and Reporting",
+        "Preventive Maintenance",
+        "Perimeter Security",
+        "Protocol Adherence",
+        "Emergency Assistance",
+        "Custom Workflows",
+        "Web Parts",
+        "Application Audits and Analysis",
+        "Storage Management",
+        "System Design and Functional Specifications",
+        "Document Control"
+      ],
+      "contact": {
+        "phone": "3188842842",
+        "email": "kidd.latherio@gmail.com",
+        "location": "Greenbelt, MD 20770"
       },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+      "education": [
+        {
+          "degree": "Bachelor of Applied Science - BASc",
+          "field": "Computer Engineering",
+          "university": "Colorado Technical University",
+          "completionDate": "September 2022"
+        },
+        {
+          "degree": "Computer User Support Specialist (CUSS) Program",
+          "university": "ACI Learning",
+          "completionDate": "December 2021"
+        }
+      ],
+      "certifications": [
+        "TestOut PC Pro Certification - TestOut Corporation 6-2C6-FW77D",
+        "CompTIA Security+ ce Certification - CompTIA Issued Apr 2022 - Expires Apr 2025",
+        "Preventing Discrimination & Harassment: US Employees 2022 - Traliant",
+        "ITAR & Export Controls 2021 - Traliant",
+        "Microsoft Certified: Azure Fundamentals - Microsoft Certification Number: I577-2897"
+      ]
+    }
+    

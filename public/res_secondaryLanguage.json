@@ -1,124 +1,347 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 I am a dynamic tech enthusiast with an insatiable passion for solving complex problems through innovative coding
-      and design.
-      Armed with an Associates in Computer Science and fortified by CompTIA Security + CE certification, my mission is
-      to weave
-      intricate digital landscapes that transcend expectations. With a foundation in military discipline, I bring
-      resilience,
-      precision, and an unyielding commitment to excellence to every project. My expertise spans from conquering coding
-      challenges
-      to navigating the intricate realm of cybersecurity. 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Alchemik Technologii - Latherio Kidd",
+    "description": "👋 Jestem Latherio Kidd. Jestem dynamicznym entuzjastą technologii o niezaspokojonej pasji do rozwiązywania skomplikowanych problemów poprzez innowacyjne programowanie i projektowanie. Zbrojony w tytuł licencjata informatyki i wzmocniony certyfikatem CompTIA Security + CE, moja misja to tkactwo złożonych krajobrazów cyfrowych, które przekraczają oczekiwania. Z fundamentem dyscypliny wojskowej przynoszę odporność, precyzję i nieustannie zobowiązanie do doskonałości do każdego projektu. Moja wiedza obejmuje zarówno pokonywanie wyzwań programistycznych, jak i nawigację w złożonym obszarze cyberbezpieczeństwa. 💜",
+    "section_name": {
+      "about": "O mnie",
+      "projects": "Projekty",
+      "skills": "Umiejętności",
+      "experience": "Doświadczenie"
+    }
+  },
+  "projects": [
+    {
+      "title": "Klasyczna Gra Snake",
+      "startDate": "2020",
+      "description": "Nasz projekt ma na celu stworzenie klasycznej gry Snake przy użyciu języka JavaScript. Gra będzie obejmować węża, który rośnie w długości w miarę spożywania jedzenia i prostą przestrzeń do gry opartą na siatce. Gracze będą kontrolować kierunek węża, a celem gry będzie zjedzenie jak najwięcej jedzenia bez zderzania się ze ścianami ani własnym ogonem węża. Gra będzie prowadzić statystyki porażek i zwycięstw gracza.",
+      "images": [
+        "/images/portfolio/eastcode/Picture1.png",
+        "/images/portfolio/eastcode/Picture2.png",
+        "/images/portfolio/eastcode/Picture3.png"
+      ],
+      "url": "https://github.com/TheEastCode/ClassicSnakeGame.git",
+      "url": "https://theeastcode.github.io/ClassicSnakeGame/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Gallery Of Horns",
-        "startDate": "2023",
-        "description": "React State and Props Overview By the end of this module, you will create an application that displays images and information of horned animals. This application will allow you to filter the beasts by number of horns and chose your favorite beast.",
-        "images": [
-          "images/portfolio/galleryOfHorns/react2.png",
-          "images/portfolio/galleryOfHorns/react.png",
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
+    {
+      "title": "Ciasteczka z łososiem",
+      "startDate": "2018",
+      "description": "Pat potrzebuje, abyś odegrał wiodącą rolę w wdrożeniu prac projektowych i budowie strony przeznaczonej dla publiczności. Zespół projektowy stworzył obraz logo (poniżej) oraz szkielet wyglądu i odczucia witryny, w tym schemat kolorów, czcionki i dodatkowe obrazy dla strony przeznaczonej dla publiczności. Więc oprócz budowy aplikacji, która oblicza codzienne prognozy sprzedaży dla każdej lokalizacji (na stronie o nazwie sales.html), musisz również stworzyć stronę przeznaczoną dla publiczności (na stronie głównej index.html), która pasuje do projektu stworzonego przez zespół projektowy i zawiera wymagane informacje i zasoby. :)",
+      "images": [
+        "images/portfolio/cookies/Picture5.png",
+        "images/portfolio/cookies/Picture4.png"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        }
+      ]
+    },
+    {
+      "title": "Galeria Róż",
+      "startDate": "2023",
+      "description": "Przegląd stanu React i Props Do końca tego modułu stworzysz aplikację wyświetlającą obrazy i informacje o rogatych zwierzętach. Aplikacja pozwoli Ci filtrować bestie według liczby rogów i wybrać swoje ulubione zwierzę.",
+      "images": [
+        "images/portfolio/galleryOfHorns/react2.png",
+        "images/portfolio/galleryOfHorns/react.png"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-npm-original",
+          "name": "npm"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Code Fellows",
+      "title": "Programista Oprogramowania",
+      "years": "październik 2023 - obecnie",
+      "mainTech": [
+        "JavaScript"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Test-Driven Development",
+        "Code Review",
+        "Requirements Gathering",
+        "Troubleshooting and Issue Resolution",
+        "Project Coordination and Management",
+        "Angular 8/9/10",
+        "RxJS",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        ".NET Core",
+        "SignalR",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "OBXtek",
+      "title": "Oficer Zarządzania Informacją / Inżynier Wiedzy",
+      "years": "luty 2023 - sierpień 2023",
+      "mainTech": [
+        "Administracja SharePoint",
+        "JavaScript"
+      ],
+      "technologies": [
+        "DNS",
+        "DHCP",
+        "Active Directory",
+        "GPOs",
+        "DR Concepts",
+        "Cross-Domain Transfer",
+        "Microsoft Office",
+        "Remedy Action Request System",
+        "Wsparcie Techniczne",
+        "Utrzymanie Sprzętu Komunikacyjnego",
+        "Zarządzanie Magazynem i Backupem",
+        "Zarządzanie Rejestrami",
+        "Zarządzanie Bezpieczeństwem",
+        "Nadzór nad Obszarem",
+        "Reagowanie na Sytuacje Awaryjne",
+        "Obserwacja i Raportowanie",
+        "Utrzymanie Zapobiegawcze",
+        "Ochrona Obwodu",
+        "Zgodność z Protokołem",
+        "Pomoc Awaryjna",
+        "Niestandardowe Strumienie Pracy",
+        "Web Parts",
+        "Audity i Analizy Aplikacji",
+        "Zarządzanie Magazynem",
+        "Projektowanie Systemu i Specyfikacje Funkcjonalne",
+        "Kontrola Dokumentów"
+      ]
+    },
+    {
+      "company": "GovCIO",
+      "title": "Specjalista ds. Technologii Informacyjnej",
+      "years": "czerwiec 2022 - styczeń 2023",
+      "mainTech": [
+        "UiPath"
+      ],
+      "technologies": [
+        "DNS",
+        "DHCP",
+        "Active Directory",
+        "GPOs",
+        "Przenoszenie między domenami",
+        "Techniczne Rozwiązywanie Problemów",
+        "Aktualizacje Sprzętu",
+        "Rozwiązywanie Problemów",
+        "Wsparcie Użytkowników",
+        "Testowanie Systemu",
+        "Backup Danych",
+        "Bezpieczeństwo Sieci",
+        "Wsparcie dla Pomocy Technicznej",
+        "Microsoft Windows i Office",
+        "Wykrywanie Błędów",
+        "Administracja Kontem",
+        "Raportowanie i Dokumentacja",
+        "Myślenie Krytyczne",
+        "Obsługa Klienta",
+        "Zarządzanie Danymi",
+        "Monitorowanie Wirusów Komputerowych",
+        "Zmniejszanie Ryzyka",
+        "Rozwój Aplikacji",
+        "Pisanie Techniczne",
+        "Aktualizacje Projektów",
+        "Projektowanie Oprogramowania",
+        "Debugowanie i Rozwiązywanie Problemów",
+        "Języki Programowania: Java, C#, .Net, Python",
+        "Amazon Web Services",
+        "Analityczne Myślenie i Rozwiązywanie Problemów",
+        "Źródła i Kontrola Wersji: Git, Github",
+        "Kontrola Dokumentacji Oprogramowania",
+        "Chęć Uczenia Się Nowych Technologii",
+        "Standardy Kodowania i Jakości",
+        "Standardy Rozwoju Oprogramowania",
+        "Programowanie Obiektowe",
+        "Ocena Wydajności i Optymalizacja",
+        "Wsparcie dla Użytkownika Końcowego",
+        "Użyteczność i Dostępność",
+        "Specyfikacje Projektu",
+        "Planowanie Bezpieczeństwa",
+        "Dostosowywanie Oprogramowania",
+        "Konfiguracja Sprzętu",
+        "Języki Skryptowe: PHP, Python, JavaScript",
+        "Oprogramowanie Adobe",
+        "Zapewnianie Jakości Oprogramowania"
+      ]
+    },
+    {
+      "company": "Biuro Spisu Ludności Stanów Zjednoczonych ACO 2976",
+      "title": "Menadżer Konfiguracji/Budowy",
+      "years": "grudzień 2019 - lipiec 2022",
+      "mainTech": [
+        "SharePoint",
+        "Microsoft Teams",
+        "Jira",
+        "Jenkins",
+        "Docker",
+        "Puppet",
+        "Ansible"
+      ],
+      "technologies": [
+        "Koordynacja, planowanie, harmonogramowanie i realizacja wydań oprogramowania przedsiębiorstwa",
+        "Budowanie komponentów produktu do pakietów kandydackich i śledzenie numerów wersji",
+        "Zapewnianie, że wymagana dokumentacja związana z wydaniami była tworzona i dołączana do odpowiednich Wniosków o Zmianę (CR)",
+        "Śledzenie i komunikowanie informacji o wydaniach w trakcie faz rozwoju i testowania",
+        "Planowanie i projektowanie środowisk Microsoft SharePoint do zmian sprzętowych/programowych",
+        "Instalowanie pakietów budowlanych do dedykowanej przestrzeni roboczej dla wszystkich środowisk wydań",
+        "Rejestrowanie informacji o pakiecie wydań w Bazie Danych Zarządzania Konfiguracją (CMDB)",
+        "Rozwijanie i modyfikowanie uprawnień użytkownika SharePoint zgodnie z procedurami operacyjnymi standardów",
+        "Tworzenie rozwiązania intranetowego na skalę przedsiębiorstwa wspierającego klientów umów na podstawie SharePoint Server 2016",
+        "Prowadzenie regularnych spotkań dotyczących wydań i komunikowanie polityki i zmian dotyczących zarządzania wydaniem",
+        "Recenzowanie Wniosków o Zmianę (CR) pod kątem aktualizacji i modyfikacji",
+        "Prowadzenie praktyk zarządzania treścią i zarządzania poprzez wykorzystanie pracy zespołowej"
+      ]
+    },
+    {
+      "company": "Siły Powietrzne",
+      "title": "Analityk Danych/Specjalista ds. Zarządzania Wiedzą",
+      "years": "maj 2015 - listopad 2019",
+      "mainTech": [
+        "SharePoint",
+        "C#.NET",
+        "Excel"
+      ],
+      "technologies": [
+        "Wykazano techniczną biegłość w różnych technologiach, w tym SharePoint i C#.NET",
+        "Przeprowadzano audyty i analizy środowisk aplikacyjnych",
+        "Zarządzano limitami przechowywania i współdzielonymi dyskami dla jednostki 300 żołnierzy i 25 oficerów",
+        "Pomoc w tworzeniu projektu systemu oraz specyfikacji funkcjonalnej",
+        "Planowanie i zarządzanie projektami w celu zapewnienia skutecznego i efektywnego wykonania",
+        "Zapewnienie wsparcia naziemnego dla specjalnych misji lotniczych i zagranicznych",
+        "Mapowanie i realizacja transferu wyróżnionych gości, personelu i ładunku"
+      ]
+  },
+    {
+    "company": "DSI Security Services",
+    "title": "Oficer Bezpieczeństwa",
+    "years": "Sierpień 2012 - Maj 2015",
+    "mainTech": [
+        "Wsparcie naziemne dla specjalnych misji lotniczych",
+        "Zarządzanie ładunkiem"
     ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
+    "technologies": [
+        "Nadzór obszaru",
+        "Reakcja awaryjna",
+        "Obserwacja i raportowanie",
+        "Konserwacja zapobiegawcza",
+        "Bezpieczeństwo obwodu",
+        "Przestrzeganie protokołów",
+        "Pomoc awaryjna"
     ]
-  }
+    }
+  ],
+    "podsumowanie": "Zorientowany na szczegóły i wyników IT specjalista z ponad 5-letnim doświadczeniem w technologii informacyjnej, analizie danych, pomocy technicznej i cyberbezpieczeństwie. Ekspertyza w administracji SharePoint, rozwiązywaniu problemów sprzętu/oprogramowania, zarządzaniu projektami oraz aktywny poziom tajności. Zaangażowany w osiąganie doskonałości w operacjach IT i obsłudze użytkowników.",
+    "umiejętności": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Rozwój sterowany testami",
+        "Przegląd kodu",
+        "Gromadzenie wymagań",
+        "Rozwiązywanie problemów i rozwiązywanie problemów",
+        "Koordynacja i zarządzanie projektem",
+        "DNS",
+        "DHCP",
+        "Active Directory",
+        "GPO",
+        "Koncepcje DR",
+        "Transfer międzydomenowy",
+        "Microsoft Office",
+        "Remedy Action Request System",
+        "Wsparcie techniczne",
+        "Konserwacja sprzętu komunikacyjnego",
+        "Zarządzanie przechowywaniem i kopią zapasową",
+        "Zarządzanie dokumentami",
+        "Zarządzanie nagraniami",
+        "Bezpieczeństwo obszaru",
+        "Reakcja awaryjna",
+        "Obserwacja i raportowanie",
+        "Konserwacja zapobiegawcza",
+        "Bezpieczeństwo obwodu",
+        "Przestrzeganie protokołów",
+        "Pomoc awaryjna",
+        "Niestandardowe procesy robocze",
+        "Części internetowe",
+        "Audyty i analizy aplikacji",
+        "Zarządzanie przechowywaniem",
+        "Projektowanie systemu i specyfikacje funkcjonalne",
+        "Kontrola dokumentów"
+    ],
+    "kontakt": {
+        "telefon": "3188842842",
+        "e-mail": "kidd.latherio@gmail.com",
+        "lokalizacja": "Greenbelt, MD 20770"
+    },
+    "edukacja": [
+        {
+            "stopień": "Licencjat Nauk Stosowanych - BASc",
+            "kierunek": "Inżynieria Komputerowa",
+            "uniwersytet": "Colorado Technical University",
+            "dataUkończenia": "Wrzesień 2022"
+        },
+        {
+            "stopień": "Specjalista ds. Wsparcia Użytkowników Komputerów (CUSS)",
+            "uniwersytet": "ACI Learning",
+            "dataUkończenia": "Grudzień 2021"
+        }
+    ],
+    "certyfikaty": [
+        "Certyfikat TestOut PC Pro - TestOut Corporation 6-2C6-FW77D",
+        "Certyfikat CompTIA Security+ ce - CompTIA Wystawiony w kwietniu 2022 - Wygasa w kwietniu 2025",
+        "Zapobieganie dyskryminacji i nękania: Pracownicy w USA 2022 - Traliant",
+        "ITAR & Kontrola Eksportu 2021 - Traliant",
+        "Microsoft Certified: Podstawy Azure - Numer certyfikatu Microsoft: I577-2897"
+    ]
+    }

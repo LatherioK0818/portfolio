@@ -2,6 +2,13 @@
 @import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+:root {
+	--primary-color: #388E3C; /* Earthy green, symbolizing growth and nature */
+	--secondary-color: #FFD54F; /* Southern yellow, warm and vibrant */
+	--accent-color: #795548; /* Earthy brown, grounding the color palette */
+	--background-light: #F5F5F5; /* Light background color */
+	--background-dark: #263238; /* Dark background color */
+  }
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
@@ -38,7 +45,11 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(255, 255, 0, 0.5),
+		rgba(0, 0, 255, 0.5)
+	  ),url("../public/images/monroe.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -86,7 +97,7 @@ header .nav {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #f1ead7;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -102,7 +113,7 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #e1d2ad;
 }
 
 .slider-tab {
@@ -120,7 +131,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: var(--background-light);
 	overflow: hidden;
 }
 
@@ -231,7 +242,11 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(255, 255, 0, 0.5),
+		rgba(0, 0, 255, 0.5)
+	  ),url("../public/images/monroe.jpg");
 }
 
 .experience-icon {
@@ -245,7 +260,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #4fae68 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,7 +271,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #15d522 !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -276,7 +291,7 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: white;
+	background: rgb(82, 203, 21);
 }
 
 .bars {
@@ -301,7 +316,7 @@ header h1 {
 
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-	color: #313131;
+	color: #e82929;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: normal;
@@ -315,7 +330,7 @@ header h1 {
 	top: 0;
 	margin: 0;
 	padding-right: 24px;
-	background: #313131;
+	background: #f51111;
 	display: inline-block;
 	height: 42px;
 	line-height: 42px;
@@ -353,7 +368,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: green;
 	padding-bottom: 5%;
 }
 
@@ -389,7 +404,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: rgb(6, 26, 34);
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -414,12 +429,12 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #3609c8;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: rgb(255, 255, 255);
 	position: relative;
 	text-align: center;
 }

@@ -11,6 +11,6 @@ Make it your own!
 
 Start time: 6:30 pm
 
-Finish time: 11:06 Pm
+Finish time: 11:36 Pm
 
-Actual time needed to complete: 5h :36
+Actual time needed to complete: 5h
